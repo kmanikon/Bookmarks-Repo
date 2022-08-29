@@ -17,7 +17,9 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use('/users', userRoutes);
 
-CONNECTION_URL = 'mongodb://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production/memories-mongo';
+//CONNECTION_URL = 'mongodb://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production/memories-mongo';
+
+CONNECTION_URL = 'mongodb://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production:27017/memories-mongo';
 
 const PORT = process.env.PORT || 5000;
 
