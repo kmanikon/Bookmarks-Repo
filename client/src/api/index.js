@@ -1,9 +1,9 @@
 
 import axios from 'axios';
 
-//const API = axios.create({ baseURL: 'http://localhost:5000' });
+const API = axios.create({ baseURL: 'http://localhost:5000' });
 
-const API = axios.create({ baseURL: 'https://kmanikonmemories.com' });
+//const API = axios.create({ baseURL: 'https://kmanikonmemories.com' });
 
 //const API = axios.create({ baseURL: 'https://5doiyzdfl4.execute-api.us-east-2.amazonaws.com/' });
 
