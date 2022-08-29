@@ -3,7 +3,9 @@ import axios from 'axios';
 
 //const API = axios.create({ baseURL: 'http://localhost:5000' });
 
-const API = axios.create({ baseURL: 'https://5doiyzdfl4.execute-api.us-east-2.amazonaws.com/' });
+//const API = axios.create({ baseURL: 'https://5doiyzdfl4.execute-api.us-east-2.amazonaws.com/' });
+
+const API = axios.create({ baseURL: 'https://mongodb-xin2-rx02.zeet-team-kiranmanikonda123.zeet.app' });
 
 // authorization to apply middleware
 // send token to backend middleware
