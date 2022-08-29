@@ -17,10 +17,12 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use('/users', userRoutes);
 
+CONNECTION_URL = 'mongodb+srv://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production/admin';
+
 const PORT = process.env.PORT || 5000;
 
 // init DB connection
-mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
   .catch((error) => console.log(`${error} did not connect`));
 
