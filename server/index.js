@@ -24,7 +24,7 @@ const CONNECTION_URL = 'mongodb+srv://kmanikon:Zamn123@cluster0.gbejc2u.mongodb.
 
 //const CONNECTION_URL = 'mongodb://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production:27017/memories-mongo';
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5030;//process.env.PORT || 5000;
 
 // init DB connection
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
