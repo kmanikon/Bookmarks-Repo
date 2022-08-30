@@ -8,8 +8,6 @@ import postRoutes from './routes/posts.js'
 import userRoutes from './routes/users.js'
 
 
-
-
 const app = express();
 dotenv.config();
 
@@ -22,10 +20,7 @@ app.use('/users', userRoutes);
 
 //CONNECTION_URL = 'mongodb://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production/memories-mongo';
 
-//const CONNECTION_URL = 'mongodb://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production:27017/memories-mongo';
 const CONNECTION_URL = 'mongodb+srv://kmanikon:Zamn123@cluster0.gbejc2u.mongodb.net/?retryWrites=true&w=majority';
-
-//const CONNECTION_URL = 'mongodb://mongodb:e43FQweegr6RS6rP@mongodb-xin2-rx02-production:27017/memories-mongo';
 
 const PORT = process.env.PORT || 5000;
 
