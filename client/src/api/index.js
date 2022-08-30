@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://memories-app-hl99-gt0v.zeet-team-kiranmanikonda123.zeet.app' });
+const API = axios.create({ baseURL: 'https://memories-app-hl99-gt0v.zeet-team-kiranmanikonda123.zeet.app/' });
 
 // authorization to apply middleware
 // send token to backend middleware
