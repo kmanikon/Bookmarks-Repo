@@ -1,4 +1,3 @@
-/*
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
@@ -7,9 +6,9 @@ import dotenv from 'dotenv';
 
 import postRoutes from './routes/posts.js'
 import userRoutes from './routes/users.js'
-*/ 
 
-/*
+
+
 
 const app = express();
 dotenv.config();
@@ -36,7 +35,7 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
   .catch((error) => console.log(`${error} did not connect`));
 
 
-  */
+/*
 
 const http = require('http');
 
@@ -52,3 +51,5 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`server running at http://${hostname}:${port}`);
 })
+
+*/
