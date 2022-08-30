@@ -1,3 +1,4 @@
+/*
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
@@ -6,6 +7,7 @@ import dotenv from 'dotenv';
 
 import postRoutes from './routes/posts.js'
 import userRoutes from './routes/users.js'
+*/ 
 
 /*
 
@@ -36,10 +38,10 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
 
   */
 
-const http = require('http'); 
+const http = require('http');
 
 const hostname = '0.0.0.0';
-const posrt = 3000;
+const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
