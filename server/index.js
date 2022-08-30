@@ -36,9 +36,9 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
 
   */
 
-const http = requre('http');
-const hostname = '0.0.0.0';
+const http = require('http'); 
 
+const hostname = '0.0.0.0';
 const posrt = 3000;
 
 const server = http.createServer((req, res) => {
