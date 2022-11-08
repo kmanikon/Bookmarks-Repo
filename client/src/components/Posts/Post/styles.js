@@ -29,9 +29,9 @@ export default makeStyles({
   },
   overlay2: {
     position: 'absolute',
-    top: '20px',
+    top: '12px',
     right: '20px',
-    color: 'white',
+    color: 'grey',
   },
   grid: {
     display: 'flex',
@@ -42,11 +42,12 @@ export default makeStyles({
     margin: '20px',
   },
   title: {
-    padding: '0 16px',
+    padding: '8px 16px 0 16px ',
   },
   cardActions: {
     padding: '0 16px 8px 16px',
     display: 'flex',
     justifyContent: 'space-between',
+    padding: '8px 8px',
   },
 });
